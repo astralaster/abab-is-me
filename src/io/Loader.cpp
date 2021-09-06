@@ -10,15 +10,8 @@
 #include <fstream>
 #include <string>
 
-#if !_WIN32
-namespace std
-{
-  int stoi(const std::string& str) { return atoi(str.c_str()); }
-}
-#else
 #include <filesystem>
 #include <regex>
-#endif
 
 #include "game/Types.h"
 

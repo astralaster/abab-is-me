@@ -37,7 +37,7 @@ static constexpr auto KEY_WAIT = SDLK_SPACE;
   
   static const path DATA_FOLDER = R"(/media/sdcard/baba/Data/)";
 
-  #define MOUSE_ENABLED false;
+  #define MOUSE_ENABLED false
 
 #elif TARGET_PLATFORM == PLATFORM_FUNKEY
   
